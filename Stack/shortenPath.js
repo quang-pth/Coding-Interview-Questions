@@ -1,3 +1,4 @@
+// O(n) Time | O(n) Space
 function shortenPath(path) {
     const startWithSlash = path[0] === "/";
     const tokens = path.split("/").filter(token => (token.length && token !== "."));
