@@ -33,6 +33,14 @@ function fourNumberSum(array, targetSum) {
 
 
 console.log(fourNumberSum([7, 6, 4, -1, 1, 2], 16));
-// Output:
+// Output: [[ 6, 7, 4, -1 ], [ 6, 7, 1, 2 ]]
 console.log(fourNumberSum([-10, -3, -5, 2, 15, -7, 28, -6, 12, 8, 11, 5], 20));
-// Output:
+// Output: [
+//   [ 2, -5, 15, 8 ],
+//   [ 2, -3, -7, 28 ],
+//   [ -3, -10, 28, 5 ],
+//   [ 28, -10, -6, 8 ],
+//   [ 28, -7, -6, 5 ],
+//   [ 2, -5, 12, 11 ],
+//   [ 12, -5, 8, 5 ]
+// ]
