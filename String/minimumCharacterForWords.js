@@ -1,4 +1,3 @@
-// From algoexpert.io
 // O(n * l) Time | O(n * l) Space
 // n is the numbers of word, l is the length of the longest word
 function minimumCharactersForWords(words) {
