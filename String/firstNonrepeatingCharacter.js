@@ -1,3 +1,4 @@
+// From algoexpert.io
 // Input string is a string of lowercase English-alphabet letters 
 // and return the index of the string's first non-repeating character.
 
