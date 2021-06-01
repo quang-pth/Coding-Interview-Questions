@@ -1,3 +1,6 @@
+// Worst: O(n^2) Time | O(nlogn) Space - where n is the length of the array
+// Best: O(nlogn) Time | O(nlogn) Space
+// Average: O(nlogn) Time | O(nlogn) Space
 function quickSort(array) {
     quickSortPartitioning(array, 0, array.length - 1);
     return array;
