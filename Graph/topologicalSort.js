@@ -91,7 +91,7 @@ function topologicalSort(jobs, deps) {
 function createJobGraph(jobs, deps) {
     const graph = new JobGraph(jobs);
     for (const [job, dep] of deps) {
-        graph.addPrereq(job, dep);
+        graph.addDep(job, dep);
     }
     return graph;
 }
@@ -127,7 +127,7 @@ class JobGraph {
         }
     }
     
-    addPrereq(job, dep) {
+    addDep(job, dep) {
         const jobNode = this.getNode(job);
         const depNode = this.getNode(dep);
         jobNode.deps.push(depNode);
