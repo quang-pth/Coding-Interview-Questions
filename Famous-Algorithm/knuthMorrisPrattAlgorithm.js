@@ -47,3 +47,4 @@ function doesMatch(string, substring, pattern) {
 }
 
 console.log(knuthMorrisPrattAlgorithm("aefoaefcdaefcdaed", "aefcdaed"))
+// Output: true
